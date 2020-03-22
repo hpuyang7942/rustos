@@ -1,0 +1,3 @@
+The reason is that other languages don’t enforce Rust’s
+rules and guarantees, and Rust can’t check them, so
+responsibilityfalls on the programmer to ensure safety.

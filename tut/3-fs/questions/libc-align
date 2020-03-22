@@ -1,0 +1,5 @@
+To avoid bitshifting and saving time to fetch value from
+the memory, the data inside should be properly aligned.
+The data sizes in C are 1, 2, 4, 8. Correctly aligned data
+structure with padding would always save reading time and
+be more efficient.

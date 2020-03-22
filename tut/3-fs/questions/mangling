@@ -1,0 +1,7 @@
+Name mangling is commonly used to facilitate the overloading
+feature and visibility within different scopes. The compiler
+generates function names with an encoding of the types of the
+function arguments when the module is compiled.
+
+If Rust does not support name mangling, we cannot name functions
+within different scopes as the same.

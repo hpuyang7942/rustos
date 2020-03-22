@@ -1,0 +1,7 @@
+Why does StackVec require T: Clone to pop()?   
+    Because StackVec is actually still implemented on stack. For Vec that is implemented in heap, whatever got popped
+    out would not be further affected by the operations done for the Vector. However, for StackVec, if the original
+    object is return, its value could be affected by further operations on the StackVec since its address is still
+    adjacent to the other objects that are still in the StackVec. Therefore, by implementing Clone trait, we allow
+    the program to copy its value so that the popped object stand alone from the StackVec, it won’t be further effected
+    by the operations done on the StackVec.

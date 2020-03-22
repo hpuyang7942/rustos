@@ -1,0 +1,3 @@
+Where does the write_fmt call go?
+    All the types implement the Mutex library which enables the lock on mutable reference.
+    The implementation should be provided by Mutex library.

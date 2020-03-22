@@ -1,0 +1,5 @@
+Why does the test.sh script always set -r?
+    By setting -r, we always disable XMODEM protocol in test. Because this
+    protocol is interactive, it requires one receiver and one sender, the
+    receiver and sender needs each other’s information to perform next step.
+    While here, we can only test by raw data because we don’t have a receiver.

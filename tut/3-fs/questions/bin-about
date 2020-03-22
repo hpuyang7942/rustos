@@ -1,0 +1,16 @@
+1. size classes
+    2^3 to 2^32 bytes. because of using power of two, we can 
+    deal with the alignment of allocations, different sizes can
+    satisfy different size request.
+
+2. handling alignment
+    using functions align_up() and align_down().
+
+3. internal/external fragmentation
+    internal: because we always round up layout size to nearest size
+    of power of 2, which means there can be allocation that are larger
+    than actual size of layout.
+    external: for each layout input, we check its size, finding the
+    index of bin with minimum higher size than layout size having free
+    space, assign it to that bin. Bins with smaller size of layout cannot 
+    handle allocation.

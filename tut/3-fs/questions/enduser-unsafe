@@ -1,0 +1,3 @@
+Since unions allow memory to be cast into arbitrary structures, if
+the user cannot figure out the type that is stored in the union area,
+accessing it in the wrong way, the program would crash.

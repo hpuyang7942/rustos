@@ -1,0 +1,4 @@
+What do the macros do?
+    readable!: enable the struct to be read-only
+    writeable!: enable the struct to be write-only
+    readable_writeable!: enable both read and write 

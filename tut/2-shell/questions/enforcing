@@ -1,0 +1,5 @@
+How are read-only and write-only accesses enforced?
+    They disable write and read respectively by macros readable! and writable!: readable!
+    only passes a sharable reference to the inner function, then it can only read instead of
+    changing the value of it; writable passes a mutable reference to the inner function, it
+    only has write function in its trait implementation, then it can only write, but not read.

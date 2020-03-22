@@ -1,0 +1,3 @@
+What happens when a flag’s input is invalid?
+    Invalid value for '--flow-control <flow_control>': value must be 'none', 'software'
+    (xon/xoff), or 'hardware' (rts/cts), however, our input (idk) doesn’t match with anyone of these.

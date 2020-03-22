@@ -1,0 +1,6 @@
+Which tests make use of the Deref implementations?
+    assignment_text_example, mut_indexing, indexing, iterator
+    mut_indexing
+
+    Because not having implemented Deref or DerefMut on this struct, there is no definition on deferencing
+    this struct instance. thus fail.

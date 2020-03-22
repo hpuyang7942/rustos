@@ -1,0 +1,3 @@
+check the 2 bytes at offset 44, find the cluster number of root directory. 
+Look to the FAT32, finding the cluster number of the corresponding directory `a`,
+then refer to directory `b`, finally in the cluster of `b` find the cluster location of `c.txt`.

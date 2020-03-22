@@ -1,0 +1,3 @@
+Because Rust is a strong-type language, by passing the
+Layout with specific type, it must has specific size to
+be stored in the address.

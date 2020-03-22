@@ -1,0 +1,4 @@
+the main function intialize the allocator instance, once there is
+resources allocation action required, the Allocator calls the 
+alloc() function implemented by GloballAllocator, thus calling the
+alloc() in bump.rs.

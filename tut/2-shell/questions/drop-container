@@ -1,0 +1,4 @@
+Why should we never return an &mut T directly?
+    It is not likely to return directly a mutable reference of a variable 
+    because of lifetime restriction that rust performs. Container wrapping 
+    mutable reference can hold this reference regardless of its original lifetime.

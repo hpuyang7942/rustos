@@ -1,0 +1,4 @@
+Why is the timeout necessary?
+    This mechanism enables our program to wait reasonably long time for an action
+    to be performed. If not, throw an exception or error insteading of infinitely 
+    waiting (compare to infinity loop).

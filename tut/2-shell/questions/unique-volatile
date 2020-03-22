@@ -1,0 +1,3 @@
+Why does Unique<Volatile> exist?
+    Volatile enforces volatile access on raw pointers, however, multiple pointers can
+    access the same object synchronously. Unique enables Sync on these access.

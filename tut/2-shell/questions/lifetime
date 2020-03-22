@@ -1,0 +1,4 @@
+Why is the ‘a bound on T required?
+    Because the StackVec has a mutable reference on ‘a [T] array, if [T] lives shorter than the StackVec, the
+    storage would become a dangling pointer with no reference available. If is not enforced by Rust, [T] with shorter
+    lifetime could be passed as storage therefore causing unsafe memory issues.

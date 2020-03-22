@@ -1,0 +1,3 @@
+Yes it is safe.
+because the vfat variable has the function lock() which prevents
+multi-threads creating troubles.

@@ -1,0 +1,3 @@
+Why can't you write to CLO or CHI?
+    Because we declared CHI and CLO to be WriteVolatile<u32>, while WriteVolatile (we defined in 
+    volatile directory) only enables write on registers by applying corresponding macros.

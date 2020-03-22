@@ -1,0 +1,4 @@
+it has a largest cluster count of 2^28-11; The number of bits
+used in per entry and upper 4 ignored bits.
+
+it is different from FAT16: FAT16 uses all 16 bits per entry.

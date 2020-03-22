@@ -1,0 +1,4 @@
+Why does push return a Result?
+    Because StackVec is just imitating the way Stack works: we pre-allocate a certain amount of memory to the 
+    program, instead really having infinity space for it to grow, the space is limited. Once the StackVec::push()
+    uses up the space, we need Result as return type to tell us whether it is success or not.

@@ -1,0 +1,1 @@
+for each directory, check the byte at offset 11: if it is 0X0F, it is a long file name entry.

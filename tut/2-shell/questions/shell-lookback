@@ -1,0 +1,5 @@
+How does your shell tie the many pieces together?
+    By writing shell:shell(“>”) in main, our program use the shell crate
+    that generate a shell. Shell utilize the console object with Mutex, which
+    utilize the console crate, which wraps the crate uart too communicate.
+    The shell also utilise the StackVec for FileBuf.

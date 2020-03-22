@@ -1,0 +1,2 @@
+Which transitions did you follow in your lab 1 blinky? (blinky-states)
+    The set and clear transitions in OUTPUT state, since Gpio is in output state.

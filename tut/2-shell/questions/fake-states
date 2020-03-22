@@ -1,0 +1,3 @@
+What would go wroing if a client fabricates states?
+    If we use user fabricates state, we have to check its state before we perform
+    state transformation. FWe would have longer function performance time.
